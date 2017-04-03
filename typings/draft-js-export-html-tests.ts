@@ -1,5 +1,5 @@
 import {EditorState, ContentBlock} from 'draft-js';
-import {stateToHTML} from 'draft-js-export-html';
+import {stateToHTML} from '@rokt33r/draft-js-export-html';
 
 const state = EditorState.createEmpty().getCurrentContent();
 
